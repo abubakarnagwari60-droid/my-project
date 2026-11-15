@@ -1,4 +1,4 @@
-/* Import Google Font */
+/*===== Import Google Font =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
@@ -17,7 +17,7 @@ body {
 }
 
 
-/* Navigation */
+/*==== Navigation ====*/
 nav {
     background-color: #163A70;
     padding: 15px;
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 
-/* Headings */
+/*==== Headings ====*/
 h1, h2, h3 {
     color: #163A70;
     font-weight: 700;
@@ -56,7 +56,7 @@ h3 {
 }
 
 
-/* Main Section */
+/*==== Main Section ====*/
 main {
     padding: 20px;
 }
@@ -72,7 +72,7 @@ main {
 }
 
 
-/* Registration Form */
+/*==== Registration Form ====*/
 form {
     background-color: white;
     width: 400px;
@@ -146,7 +146,7 @@ button:hover {
 }
 
 
-/* Table Styling */
+/*==== Table Styling ====*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -162,7 +162,7 @@ td {
     padding: 10px;
 }
 
-/* Footer */
+/*==== Footer ====*/
 footer {
     text-align: center;
     margin-top: 20px;

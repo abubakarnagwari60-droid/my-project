@@ -3,64 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="css/register.css">
 </head>
+
 <body>
-    
-     <h2>Student Registration Form</h2>
 
-    <form>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register</a>
+    </nav>
 
-        <label>Full Name:</label><br>
-        <input type="text" placeholder="Enter your full name"><br><br>
+    <main>
 
-        <label>Email Address:</label><br>
-        <input type="email" placeholder="Enter your email"><br><br>
+        <h2 class="highlight">Student Registration Form</h2>
 
-        <label>Password:</label><br>
-        <input type="password" placeholder="Enter password"><br><br>
+        <p class="tagline">Create your student account today.</p>
 
-        <label>Gender:</label><br>
+        <form id="register">
 
-        <input type="radio" name="gender"> Male
-        <input type="radio" name="gender"> Female
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your full name" required>
 
-        <br><br>
+            <label>Email Address:</label>
+            <input type="email" placeholder="Enter your email" required>
 
-        <label>Date of Birth:</label><br>
-        <input type="date"><br><br>
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password" required>
 
-        <label>Department:</label><br>
+            <label>Gender:</label>
 
-        <select>
-            <option>Select Department</option>
-            <option>Software Engineering</option>
-            <option>Computer Science</option>
-            <option>Cyber Security</option>
-        </select>
+            <div class="gender">
+                <input type="radio" name="gender" required> Male
+                <input type="radio" name="gender"> Female
+            </div>
 
-        <br><br>
+            <div class="terms">
+                <input type="checkbox" required>
+                I agree to the terms and conditions.
+            </div>
 
-        <label>About Yourself:</label><br>
-        <textarea rows="5" cols="30"
-        placeholder="Tell us about yourself"></textarea>
+            <button type="submit">Register</button>
+            <button type="reset" class="reset">Clear Form</button>
 
-        <br><br>
+        </form>
 
-        <input type="checkbox"> I agree to the terms and conditions.
-
-        <br><br>
-
-        <button type="submit">Register</button>
-        <button type="reset">Clear Form</button>
-
-    </form>
-
-    <hr>
+    </main>
 
     <footer>
-        <p> &copy; 2026 Bello Abubakar Nagwari. All Rights Reserved.</p>
+        <p>&copy; 2026 Bello Abubakar Nagwari. All Rights Reserved. Student Registration Website</p>
     </footer>
-    
+
 </body>
 </html>
